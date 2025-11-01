@@ -27,7 +27,6 @@ jobs:
 
       - run: npm install
       - run: npm run build
-      - run: npx next export
       - run: touch out/.nojekyll
 
       - uses: actions/upload-pages-artifact@v3
