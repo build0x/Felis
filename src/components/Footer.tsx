@@ -4,10 +4,10 @@ export function Footer() {
       <div className="mx-auto flex max-w-6xl flex-col items-center gap-3 px-6 text-center text-sm text-white/50 sm:flex-row sm:justify-between">
         <p>© {new Date().getFullYear()} 菲利斯猫社区 · Felis Cat Orbit</p>
         <div className="flex gap-4">
-          <a className="hover:text-white" href="https://t.me/" target="_blank" rel="noreferrer">
+          <a className="hover:text-white" href="https://t.me/feilipusichina/" target="_blank" rel="noreferrer">
             Telegram
           </a>
-          <a className="hover:text-white" href="https://twitter.com/" target="_blank" rel="noreferrer">
+          <a className="hover:text-white" href="https://x.com/HandlerNau54075/" target="_blank" rel="noreferrer">
             X (Twitter)
           </a>
           <a className="hover:text-white" href="mailto:hello@feliscat.space">
@@ -18,6 +18,7 @@ export function Footer() {
     </footer>
   );
 }
+
 
 
 
